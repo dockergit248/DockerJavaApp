@@ -1,9 +1,9 @@
 From openjdk:8-jre-alpine
 
- COPY ./DockerJavaApp/src/com/test/Sample.java ./
+ COPY ./src/com/test/Sample.java ./
 
 EXPOSE 8080
 
-CMD ["javac", "Sample.java"]
+CMD ["javac", "com.test.Sample.java"]
 
-CMD ["java", "Sample"]
+CMD ["java", "com.test.Sample"]
