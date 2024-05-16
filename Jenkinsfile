@@ -9,7 +9,7 @@ pipeline {
     stage('Cloning Git') {
       steps {
         echo "Clone"
-       # git([url: 'https://github.com/dockergit248/DockerJavaApp.git', branch: 'master', credentialsId: 'dockergit248'])
+       // git([url: 'https://github.com/dockergit248/DockerJavaApp.git', branch: 'master', credentialsId: 'dockergit248'])
  
       }
     }
